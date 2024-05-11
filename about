@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Background image for the index page */
+        body#index {
+            background-image: url('https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU=');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Button color red */
+        .btn {
+            background-color: rgba(235, 217, 217, 0.719);
+        }
+
+        
+        .top-nav-search {
+            text-align: center;
+            margin-top: 20px;
+            margin-right: 90px;
+            border-radius: 50px;
+            width: 60px;
+            
+        }
+
+        .form-control {
+            width: 300px;
+            /* Adjust width as needed */
+            margin-right: auto;
+            margin-left: auto;
+            /* Center the search bar */
+        }
+
+        .center-container {
+    margin-top: 100px; /* Adjust as needed */
+    text-align: center;
+    color: white;
+    display: block;
+    /* Make the container visible */
+    background-color: rgba(15, 6, 6, 0.5); /* Gray background with some transparency */
+    padding: 20px; /* Add padding for better appearance */
+}
+
+
+        /* Personal details */
+        .personal-details {
+            background-color: black
+            /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            /* Box shadow for depth */
+        }
+        
+    </style>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">HOTEL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+</header>
+<body id="index">
+
+    <div class="container">
+
+        <div class="top-nav-search">
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+
+        <div class="container center-container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="About us">
+                        <h1>About us</h1>
+                        <p>Welcome to Hotel de San Pablo, where luxury meets and comfort blends seamlessly with style.
+                            San Pablo City, Laguna, our hotel offers a haven of relaxation and indulgence for discerning
+                            travelers. We Enjoy and Relax, we aim to create memorable experiences
+                            for every guest. From our exquisite accommodations to our world-class amenities, we strive
+                            to exceed your expectations and make your stay truly unforgettable. Discover the essence of
+                            luxury with us at Hotel de San Pablo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
